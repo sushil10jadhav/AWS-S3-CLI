@@ -1,0 +1,14 @@
+{
+  "Statement": [
+    {
+      "Sid": "Stmt1563561364249",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::mysourcebucket19072020skj.com/*",
+      "Principal": "*"
+    }
+  ]
+}
+
