@@ -12,3 +12,6 @@ aws s3 sync s3://mysourcebucket19072020skj.com s3://mysourcebucket19072020dsj.co
 
 #Below command will delete a file from bucket if its deleted from the source folder.
 aws s3 sync . s3://mysourcebucket19072020skj.com --delete --exclude "*.sh"
+
+#syn between bucket and local dir ->
+aws s3 sync s3://sourcebucketoct23  .
