@@ -15,3 +15,6 @@ aws s3 sync . s3://mysourcebucket19072020skj.com --delete --exclude "*.sh"
 
 #syn between bucket and local dir ->
 aws s3 sync s3://sourcebucketoct23  .
+
+#sync these two buckets -->
+aws s3 sync s3://sourcebucketoct23 s3://targetbucketoct23
