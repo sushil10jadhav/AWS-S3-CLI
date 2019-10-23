@@ -18,3 +18,7 @@ aws s3 sync s3://sourcebucketoct23  .
 
 #sync these two buckets -->
 aws s3 sync s3://sourcebucketoct23 s3://targetbucketoct23
+
+#remove buickets , force is used to delete all objects in the bucket
+aws s3 rb s3://sourcebucketoct23 --force
+aws s3 rb s3://targetbucketoct23 --force
