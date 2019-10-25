@@ -25,3 +25,11 @@ aws s3 rb s3://targetbucketoct23 --force
 
 #Create Website -->
 aws s3 website s3://sourcesushil1025/ --index-document index.html --error-document error.html
+
+# Remove all objects from bucket 
+$ aws s3 rm s3://sourcesushil1025  --recursive 
+$ aws s3 rm s3://targetsushil1025  --recursive 
+
+# Remove bucket
+$ aws s3 rb s3://targetsushil1025 
+$ aws s3 rb s3://sourcesushil1025  
